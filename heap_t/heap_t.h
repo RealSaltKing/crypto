@@ -29,7 +29,7 @@ void heap_insert(heap_t h, void *ele);
 // Remove and return the maximum element from the heap
 void *heap_maxpop(heap_t h);
 
-// Challenge problems:
+
 // Convert a list to a heap
 heap_t l_to_h(list_t l);
 
