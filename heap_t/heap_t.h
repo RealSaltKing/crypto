@@ -5,9 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
-#include "list_t.h"  // Include list_t.h to recognize list_t type
+#include "list_t.h"  
 
-// We'll use the bool from list_t.h, not redefine it here
 
 typedef struct heap_struct {
   size_t ele_size;        // Size of each element

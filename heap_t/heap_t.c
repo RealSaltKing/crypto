@@ -140,7 +140,6 @@ static bool pointer_greater_than(void *a, void *b) {
     return *(void**)a > *(void**)b;
 }
 
-// Challenge Problem: Convert a list to a heap
 heap_t l_to_h(list_t l) {
     // Count elements in the list
     size_t count = 0;
@@ -164,7 +163,6 @@ heap_t l_to_h(list_t l) {
     return h;
 }
 
-// Challenge Problem: Heap sort a list
 void h_sort(list_t l) {
     // Return if the list is empty or has only one element
     if (l == NULL || l[0] == NULL || l[1] == NULL) {
